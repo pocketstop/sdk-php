@@ -1,4 +1,4 @@
-#Pocketstop REST API Wrapper for SDK
+#Pocketstop REST API Wrapper for PHP
 
 Pocketstop provides a simple HTTP-based REST API for interacting with the Pocketstop Social CRM Platform. Learn more at [http://www.pocketstop.com][0]
 
@@ -73,4 +73,7 @@ Drop the Pocketstop.php file in your directory and...
 
 	}
 
-See included example.php for a more detailed example.
+See included [example.php][1] for a more detailed example.
+
+[0]: http://www.pocketstop.com
+[1]: https://github.com/pocketstop/sdk-php/blob/master/src/example.php
