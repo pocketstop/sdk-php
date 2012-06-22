@@ -64,7 +64,7 @@
             
             if($this->IsError = ($status >= 400))
                 $this->ErrorMessage =
-                    (string)$this->ResponseJson->RestException->Message;
+                    (string)$this->ResponseJson->Message;
             
         }
         
@@ -96,8 +96,7 @@
          *   $endpoint : The Pocketstop REST Service URL, currently defaults to
          * the proper URL
          */
-        public function __construct($accountId, $apiKey,
-            $endpoint = "https://api.pocketstop.com/v1") {
+        public function __construct($accountId, $apiKey, $endpoint = "https://api.pocketstop.com/v1") {
             
             $this->AccountId = $accountId;
             $this->ApiKey = $apiKey;
